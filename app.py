@@ -11,7 +11,7 @@ def load_keras_model():
 
 model = load_keras_model()
 
-st.title("Bildklassifizierung mit Keras und Streamlit")
+st.title("Bildklassifizierung mit Streamlit")
 uploaded_file = st.file_uploader("Wähle ein Bild...", type=["jpg", "png", "jpeg"])
 
 st.title("Foto aufnehmen statt hochladen")
